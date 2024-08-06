@@ -16,3 +16,19 @@ credentials::set_github_pat()
 remotes::install_github('caipine/DoubletFinder')
 ```
 
+
+
+
+https://stackoverflow.com/questions/70908295/failed-to-install-unknown-package-from-github
+in seadragon to remove PAT
+
+You need to check if you have a personal access token set in your environment. For example, when I have a Git project, I set a personal access token. However, I set this in the project environment, so that it isn't any issues outside of that environment.
+
+To see if there is one assigned:
+
+Sys.getenv("GITHUB_PAT")
+If there is one set, write it down (you may need that in the future).
+
+To remove it, so you can install the GitHub package:
+
+Sys.unsetenv("GITHUB_PAT")
