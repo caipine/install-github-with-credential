@@ -17,6 +17,27 @@ remotes::install_github('caipine/DoubletFinder')
 ```
 
 
+usethis::edit_r_environ()
+
+edit directly
+/rsrch3/home/lym_myl_rsch/qcai1/.Renviron
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 https://stackoverflow.com/questions/70908295/failed-to-install-unknown-package-from-github
