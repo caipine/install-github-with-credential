@@ -17,6 +17,13 @@ remotes::install_github('caipine/DoubletFinder')
 ```
 
 
+
+
+Sys.getenv("GITHUB_PAT")
+#"ghp_**************************"
+Sys.unsetenv("GITHUB_PAT")
+
+
 usethis::edit_r_environ()
 
 edit directly
