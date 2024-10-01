@@ -26,6 +26,20 @@ Sys.unsetenv("GITHUB_PAT")
 
 usethis::edit_r_environ()
 
+
+In the upper-right corner of GitHub, select your profile photo, then click  Your organizations.
+Next to the organization, click Settings.
+In the left sidebar, under  Personal access tokens, click Settings.
+Select the Tokens (classic) tab to access the personal access tokens (classic) settings.
+Under Personal access token (classic), select the option that meets your needs:
+Allow access via personal access tokens (classic): Personal access tokens (classic) can access resources owned by the organization.
+Restrict access via personal access tokens (classic): Personal access tokens (classic) cannot access resources owned by the organization. SSH keys created by personal access tokens (classic) will continue to work.
+Click Save.
+
+
+
+change at here
+https://github.com/settings/tokens
 edit directly
 /rsrch3/home/lym_myl_rsch/qcai1/.Renviron
 
